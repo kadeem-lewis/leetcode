@@ -1,11 +1,9 @@
 function isAnagram(s: string, t: string): boolean {
   if (s.length !== t.length) return false;
-  const sArray = [...s].sort();
-  const tArray = [...t].sort();
+  const sortedS = s.split("").sort().join();
+  const sortedT = t.split("").sort().join();
 
-  for (let i = 0; i < sArray.length; i++) {
-    if (sArray[i] !== tArray[i]) return false;
-  }
+  if (sortedS !== sortedT) return false;
   return true;
 }
 
