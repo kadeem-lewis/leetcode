@@ -1,3 +1,4 @@
+//12-4-2023
 function largestGoodInteger(num: string): string {
   let finalArray: string[] = [];
   for (let i = 0; i < num.length; i++) {
@@ -14,5 +15,3 @@ console.log(largestGoodInteger("6777133339"));
 console.log(largestGoodInteger("2300019"));
 console.log(largestGoodInteger("42352338"));
 console.log(largestGoodInteger("777222333444555888"));
-
-//current implementation only checks if the number appears 3 times and not 3 times in a row
