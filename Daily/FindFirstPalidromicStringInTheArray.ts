@@ -1,3 +1,4 @@
+// 02/12/2024
 function firstPalindrome(words: string[]): string {
   for (let word of words) {
     console.log(word, [...word].reverse().join(""));
