@@ -14,3 +14,6 @@ function singleNumber(nums: number[]): number[] {
   }
   return answer;
 }
+
+// Runtime 61ms || Beats 72.13% of TS Users
+// 55.29mb Memory || Beats 13.12% of users with Typescript
